@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "SinchonRhapsody";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2503@1.0/SinchonRhapsody.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.title {
+  font-family: "SinchonRhapsody";
+  font-size: 200px;
+  color: blue;
+  text-align: center;
+}
+
+.imperfect {
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 5%;
+  height: 1000px;
+  width: 2000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imperfect .text {
+  flex: 1;
+}
+
+.imperfect figure {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.imperfect img {
+  height: 50%;
+}
