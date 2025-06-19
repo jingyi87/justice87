@@ -5,52 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css" />
+<script src="/js/common.js"></script>
   </head>
   <body>
-    <div class="title">mirror</div>
-    <div class="zhengti">
-      <div class="imperfect">
-        <div class="text">
-          <h1>ImPerfect</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/imp.jpg" alt="" /></figure>
-      </div>
-      <div class="day">
-        <div class="text">
-          <h1>예뻤어</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/day.jpg" alt="" /></figure>
-      </div>
-      <div class="sogood">
-        <div class="text">
-          <h1>So G.OO.D</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/sogood.jpg" alt="" /></figure>
-      </div>
-      <div class="case">
-        <div class="text">
-          <h1>CASE 143</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/143.jpg" alt="" /></figure>
-      </div>
-      <div class="stepup">
-        <div class="text">
-          <h1>STEP UP</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/stepup.jpg" alt="" /></figure>
-      </div>
-      <div class="crown">
-        <div class="text">
-          <h1>꽃피울 CROWN</h1>
-          <h3>가사</h3>
-        </div>
-        <figure><img src="/img(ex)/crown.jpg" alt="" /></figure>
-      </div>
+<div class="video-background">
+    <video 
+        class="background-video" 
+        autoplay 
+        muted 
+        loop 
+        playsinline
+    >
+        <source src="/img(ex)/firststage.mov" type="video/mp4">
+    </video>
+</div>
+</div>
+
+  <!-- 滚动容器 -->
+    <div class="scroll-container">
+        <!-- 导航栏 -->
+        <nav class="navbar">
+            <!-- 左侧艺术字 -->
+            <a href="#" class="logo">이태건</a>
+
+            <!-- 中间菜单 -->
+            <div class="nav-center">
+                <!-- 소개 信息框 -->
+                <div class="info-box">
+                    <a href="#" class="info-toggle">프로필</a>
+                    <div class="info-content">
+                        <h4>이태건 프로필</h4>
+                        <p>1</p>
+                        <p>2</p>
+                        <p>3</p>
+                        <p>4</p>
+                    </div>
+                </div>
+
+                <!-- 무대 下拉菜单 - 8个选项 -->
+                <div class="dropdown">
+                    <a href="#" class="dropdown-toggle">무대</a>
+                    <div class="dropdown-menu">
+                        <a href="https://youtu.be/0cYqBDPtKok?si=m8xscAwO3CVRLEkz" class="dropdown-item">ImPerfect 직캠</a>
+                        <a href="https://youtu.be/mJmxAbDjUaE?si=2nPKLzhRfbkqjyhJ" class="dropdown-item">예뻤어 직캠</a>
+                        <a href="https://youtu.be/FzYOhtjUiMM?si=nHiCes1uaOsfpxhw" class="dropdown-item">SO G.OO.D 직캠</a>
+                        <a href="https://youtu.be/lZPn2MqoHGo?si=Pe34WUZHuqNUazVt" class="dropdown-item">STEP UP 직캠</a>
+                        <a href="https://youtu.be/_1fJxAgoAlE?si=g31-sWmnECiGJVl7" class="dropdown-item">꽃피울 CROWN 직캠</a>
+                    </div>
+                </div>
+
+                <!-- 생일 카페 信息框 -->
+                <div class="info-box">
+                    <a href="#" class="info-toggle">생일 카페</a>
+                    <div class="info-content">
+                        <h4>생일 카페 안내</h4>
+                        <p>🎂 이태건 생일 카페를 운영합니다!</p>
+                        <p>📍 위치: </p>
+                        <p>📅 운영 기간: </p>
+                        <p>☕ 메뉴: </p>
+                        <p>👑 특전: </p>
+                        <p>💝 태건의 생일을 함께 보내요~</p>
+                    </div>
+                </div>
+
+                <!-- 태건에게 쪽지 보내기 按钮 -->
+                <a href="#" class="nav-button">쪽지 보내기</a>
+            </div>
+
+            <!-- 右侧联系我 -->
+            <div class="contact">
+                <a href="#" class="contact-toggle">contact</a>
+                <div class="contact-info">
+                    <h4>contact me</h4>
+                    <p>📧 이메일: xxx</p>
+                    <p>📱 카카오 오픈 채팅: xxx</p>
+                    <p>🍠 샤오홍슈: xxx</p>
+                    <p>🧣 웨이보: xxx</p>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 主标题 -->
+        <section class="title-section">
+            <h1 class="main-title">LEE TAEGEON</h1>
+        </section>
+
+        <!-- 下方内容区域 -->
+        <section class="content-section">
+            <div class="content-placeholder">
+                내용 영역 1
+            </div>
+            <div class="content-placeholder">
+                내용 영역 2
+            </div>
+            <div class="content-placeholder">
+                내용 영역 3
+            </div>
+        </section>
     </div>
   </body>
 </html>
